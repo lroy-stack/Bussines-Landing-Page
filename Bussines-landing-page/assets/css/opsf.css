@@ -1,0 +1,146 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the body */
+body {
+    background-color: #d9dcd6;
+    font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2a607c;
+  color: #fff;
+  text-align: right;
+  padding: 1em 2%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+
+/* Style the navigation bar */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  top: -50%; 
+}
+
+.seo {
+  color: #d9dcd6; 
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+/* Style the service sections */
+.service {
+    background-color: #0072bb;
+    color: #fff;
+    width: 66%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service img {
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.service-content {
+  width: 30%; 
+  float: left; 
+}
+
+
+/* Style the benefits section */
+.benefits {
+    background-color: #2589bd;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefit {
+  margin: 0 10px;
+  flex: 0 0 calc(30% - 20px); /* 30% de ancho fijo con margen entre beneficios */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.benefit img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #d9dcd6;
+    color: #2a607c;
+    text-align: center;
+    padding: 10px 0;
+}
